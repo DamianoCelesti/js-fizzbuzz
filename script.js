@@ -6,7 +6,7 @@
 
 // Se sono divisibili per 5 stamaper Buzz
 
-
+// Stamapare tutti gli altri numeri che non sono divisibili 
 
 
 for (let i = 1; i <= 100; i++) {
@@ -20,6 +20,8 @@ for (let i = 1; i <= 100; i++) {
     else if (i % 5 === 0) {
         console.log('Buzz');
     }
-
+    else {
+        console.log(i);
+    }
 }
 
